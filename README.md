@@ -81,6 +81,13 @@ Of 2,430 subscriptions recorded as churned in December 2025, **2,178 had an end 
 4. **Communicate:** Present key metrics and patterns in Power BI.
 5. **Recommend:** Identify practical next steps while distinguishing evidence from assumptions.
 
+- **SQL analysis:** [View SQL scripts](SQL/)
+- **Power BI dashboard:** [View Power BI report](Power%20BI/)
+- **Dashboard screenshots:** [View report previews](Screenshots/)
+- **Business analysis brief:** [View business brief](Northstar_Business_Brief.pdf)
+
+
+
 ## Project Deliverables
 
 - **SQL analysis:** [SQL](sql/)
