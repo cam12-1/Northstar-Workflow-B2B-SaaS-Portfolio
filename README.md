@@ -1,54 +1,103 @@
-# Northstar SaaS — Business Performance Analysis
-## Project Background
-Northstar is a B2B SaaS company offering workflow automation tools to businesses on four subscription plans: Starter, Growth, Professional, and Enterprise.
+# Northstar SaaS | Business Performance Analysis
 
-## Business Problem
-Three concerns were raised by the Head of Operations and Finance Director:
-•	A rising volume of overdue invoices going unaddressed
+A SQL and Power BI portfolio project investigating customer growth, revenue collection, subscription churn, product engagement, sales performance and customer support for a fictional B2B SaaS business.
 
-•	Increasing churn with no clear understanding of which customers are at risk or why
+## Dashboard Preview
 
-•	Unknown whether product usage patterns differ between retained and churned customers
+<img width="1446" height="810" alt="image" src="https://github.com/user-attachments/assets/e6721764-5508-446e-8dc4-dedb8eb1b34c" />
 
-## Objective
-Analyse two years of business data (January 2024 – December 2025) across eight tables to uncover insights and deliver actionable recommendations across six 
-business areas.
+Example: Northstar Executive Dashboard
 
-## Business Areas Covered
-•	Customer growth and acquisition
+<img width="1443" height="807" alt="image" src="https://github.com/user-attachments/assets/9fa401d0-2c85-4cd6-adfd-45f229790beb" />
 
-•	Revenue and collections
+**Tools:** MySQL · Power BI
 
-•	Customer retention and churn
+## Project Overview
 
-•	Product engagement and usage
+Northstar is a fictional B2B SaaS company providing workflow automation software through four subscription plans: Starter, Growth, Professional and Enterprise.
 
-•	Sales pipeline performance
+In this simulated business case, the Head of Operations and Finance Director need a clearer view of business performance, potential operational risks and areas requiring further investigation.
 
-•	Customer support operations
+I used SQL to validate and analyse relational business data, then developed Power BI dashboards to communicate key metrics and findings. The objective was not simply to report numbers, but to understand what they could mean for the business and identify practical next steps.
+
+## Business Questions
+
+The analysis covers six areas:
+
+1. **Customer growth and acquisition:** How is the customer base growing, and what patterns appear across acquisition channels?
+2. **Revenue and collections:** How much invoice value is overdue, and where should collection follow-up be prioritised?
+3. **Retention and churn:** What patterns are visible in subscription cancellations?
+4. **Product engagement:** Do average usage patterns differ between active and churned customers?
+5. **Sales pipeline:** How are opportunities progressing through the sales process?
+6. **Customer support:** What do ticket volumes and resolution times reveal about support operations?
 
 ## Key Findings
-•	$2.84M in overdue invoices identified, with 10,666 linked to active customers
 
-•	~31% churn rate consistent across all segments — points to a product issue, not acquisition
+### 1. Overdue invoices represent a significant collection concern
 
-•	Churned customers show 48% less activity in their final 90 days — early warning signal exists
+The analysis identified approximately **$2.85 million in overdue invoice value**.
 
-•	December 2025 churn spike of 2,430 subscriptions requires validation before actioning
+**Business implication:** Management could use an invoice-level review to prioritise collection follow-up, investigate older outstanding balances and assess whether overdue amounts are concentrated among particular customers.
 
-## Tools Used
-MySQL
+### 2. Churn rates are similar across acquisition channels
 
-## Skills Demonstrated
-•	Data cleaning and validation across 8 relational tables
+Observed churn rates across acquisition channels ranged from approximately **30.3% to 32.7%**.
 
-•	Exploratory data analysis and business insight generation
+**Business implication:** The relatively narrow range does not identify a clearly distinct channel-level churn problem. Further investigation of customer tenure, subscription plans and cancellation patterns would help determine where retention efforts may be most useful.
 
-•	SQL joins, aggregations, subqueries, CTEs and window functions
+### 3. Average usage alone does not distinguish churned customers
 
-•	Anomaly detection and data quality investigation
+Average usage-event counts were approximately **20.01 per active customer and 19.98 per churned customer** in the analysis.
 
-•	Translating data findings into business recommendations
+**Business implication:** Overall event volume alone does not provide a clear separation between the two groups. Further analysis of usage recency, engagement trends and specific event types may be more informative.
 
-## Analyst
-Cameron Moore
+### 4. A December 2025 churn anomaly requires validation
+
+Of 2,430 subscriptions recorded as churned in December 2025, **2,178 had an end date of 31 December 2025**.
+
+**Business implication:** This concentration should be investigated before drawing conclusions about the underlying churn trend. Possible explanations to examine include bulk cancellations, common contract end dates or data-processing issues.
+
+*These findings describe patterns in a fictional portfolio dataset. They do not establish causation, and the December 2025 anomaly limits interpretation of that period.*
+
+## Tools and Techniques
+
+**MySQL**
+- Data quality checks, including missing values, duplicates and unusual records
+- Joins and aggregations across relational tables
+- Subqueries, common table expressions (CTEs) and window functions
+- KPI calculations and exploratory analysis
+- Investigation of anomalous results and validation of findings
+
+**Power BI**
+- KPI cards and business performance dashboards
+- Trend analysis and comparisons across business segments
+- Visual communication of findings for non-technical stakeholders
+
+## Analytical Approach
+
+1. **Validate:** Check data completeness, uniqueness, relationships and unusual values.
+2. **Investigate:** Use SQL to answer defined business questions and calculate relevant metrics.
+3. **Verify:** Cross-check important findings and investigate results that may be affected by data quality or query logic.
+4. **Communicate:** Present key metrics and patterns in Power BI.
+5. **Recommend:** Identify practical next steps while distinguishing evidence from assumptions.
+
+## Project Deliverables
+
+- **SQL analysis:** [View SQL scripts](sql/)
+- **Power BI dashboard:** [View dashboard files](powerbi/)
+- **Dashboard screenshots:** [View report previews](powerbi/screenshots/)
+- **Business analysis brief:** [View business brief](docs/Northstar_Business_Brief.pdf)
+
+*Replace these paths with the actual repository locations if your folder structure differs.*
+
+## Limitations
+
+Northstar is a fictional business created for portfolio purposes; this project was not commissioned by a real client.
+
+The analysis identifies patterns and areas for further investigation rather than proving their causes. The concentration of subscription end dates on 31 December 2025 should be validated before December churn figures are used for business decisions.
+
+## About This Project
+
+This project demonstrates my approach to using SQL and Power BI to investigate business questions, validate data, communicate findings and identify evidence-based next steps.
+
+**Analyst:** Cameron Moore
