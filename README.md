@@ -83,10 +83,13 @@ Of 2,430 subscriptions recorded as churned in December 2025, **2,178 had an end 
 
 ## Project Deliverables
 
-- **SQL analysis:** [View SQL scripts](sql/)
-- **Power BI dashboard:** [View dashboard files](powerbi/)
-- **Dashboard screenshots:** [View report previews](powerbi/screenshots/)
-- **Business analysis brief:** [View business brief](docs/Northstar_Business_Brief.pdf)
+SQL analysis: View SQL scripts
+
+Power BI dashboard: View Power BI report
+
+Dashboard screenshots: View report previews
+
+Business analysis brief: View business brief
 
 *Replace these paths with the actual repository locations if your folder structure differs.*
 
