@@ -90,8 +90,6 @@ Of 2,430 subscriptions recorded as churned in December 2025, **2,178 had an end 
 
 ## Data Quality and Limitations
 
-Northstar is a fictional business created for portfolio purposes; this project was not commissioned by a real client.
-
 - **Payment discrepancy:** A negative payment of $25 was linked to an invoice marked Paid with a value of $97, creating a $122 discrepancy. The reason could not be established from the available data.
   
 - **December churn anomaly:** Of 2,430 subscriptions marked as churned in December 2025, 2,178 had an end date of 31 December 2025. This requires validation before conclusions are drawn about that month's churn trend.
