@@ -88,11 +88,17 @@ Of 2,430 subscriptions recorded as churned in December 2025, **2,178 had an end 
 - **Dashboard screenshots:** [View report previews](Screenshots/)
 - **Business analysis brief:** [View business brief](Northstar_Business_Brief.pdf)
 
-## Limitations
+## Data Quality and Limitations
 
 Northstar is a fictional business created for portfolio purposes; this project was not commissioned by a real client.
 
-The analysis identifies patterns and areas for further investigation rather than proving their causes. The concentration of subscription end dates on 31 December 2025 should be validated before December churn figures are used for business decisions.
+- **Payment discrepancy:** A negative payment of $25 was linked to an invoice marked Paid with a value of $97, creating a $122 discrepancy. The reason could not be established from the available data.
+  
+- **December churn anomaly:** Of 2,430 subscriptions marked as churned in December 2025, 2,178 had an end date of 31 December 2025. This requires validation before conclusions are drawn about that month's churn trend.
+  
+- **Usage analysis:** Average usage-event counts were almost identical for active and churned customers. Further analysis of specific product activities and engagement patterns may help identify more informative indicators of churn risk.
+  
+- **Dataset limitations:** Northstar is a fictional portfolio dataset. The findings identify patterns and areas for further investigation; they do not establish causation.
 
 ## About This Project
 
