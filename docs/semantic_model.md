@@ -85,7 +85,7 @@ This document records KPI definitions, SQL validation results, data relationship
 
 - **Definition:** Average number of days between opportunity creation and closure for opportunities in the Closed Won or Closed Lost stages.
 - **SQL result:** 76.6 days.
-- **Power BI validation:** Record the comparison result for the dashboard measure, if displayed.
+- **Power BI validation:** Matched SQL result.
 
 ## 5. Data Model Validation
 
